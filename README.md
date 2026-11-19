@@ -1,7 +1,17 @@
+[Calico](manifests/calico.yaml)
 
 <img width="2306" height="347" alt="k8s-10-1" src="https://github.com/user-attachments/assets/c672eaab-be5a-4820-9584-c2af0e1b8147" />
 
 <img width="2170" height="148" alt="k8s-10-proverka1" src="https://github.com/user-attachments/assets/60b41f36-4399-4313-9f82-0ce6baa50612" />
+
+[Namespace app](manifests/apps/namespace.yaml)
+[Deployment frontend](manifests/apps/frontend-deployment.yaml)
+[Service frontend](manifests/apps/frontend-service.yaml)
+[Deployment backend](manifests/apps/backend-deployment.yaml)
+[Service backend](manifests/apps/backend-service.yaml)
+[Deployment cache](manifests/apps/cache-deployment.yaml)
+[Service cache](manifests/apps/cache-service.yaml)
+[NetworkPolicy для frontend, backend и cache](manifests/policies/network-policy.yaml)
 
 <img width="1298" height="121" alt="k8s-10-sozdannye-politics" src="https://github.com/user-attachments/assets/d2518d3b-79ad-4a5c-a668-abae1057af50" />
 
